@@ -1,6 +1,6 @@
 ## NEON Only ##
 
-The test was run with -t 0.0 -s 0
+The test was run with -t 0.0 -s 0 on an M1 Mac Pro 32gb ram running Tahoe 26.6.1
 
 version=base: make test_neon_base FILE=Parameters
 version=baseO3: make test_neon_base_O3 FILE=Parameters
