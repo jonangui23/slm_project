@@ -1,0 +1,15 @@
+## NEON Only ##
+
+The test was run with -t 0.0 -s 0 on an M1 Mac Pro 32gb ram running Tahoe 26.6.1
+
+version=base: make test_neon_base FILE=Parameters
+version=baseO3: make test_neon_base_O3 FILE=Parameters
+version=neon: make test_neon FILE=Parameters
+
+Git Hash (for code),version,Parameters,throughput
+5377985,base,Stories15M.bin,51.036732
+5377985,baseO3,Stories15M.bin,86.282780
+5377985,neon,Stories15M.bin,279.746835
+5377985,base,Stories42M.bin,16.600421
+5377985,baseO3,Stories42M.bin,24.816498
+5377985,neon,Stories42M.bin,87.835052
